@@ -86,7 +86,7 @@ const HeartAnimation = () => {
   return (
     <div className="heart-container">
       <canvas ref={canvasRef} className="heart-canvas" width={800} height={500} />
-      {showText && <div className="heart-text">Yêu em 💗</div>}
+
     </div>
   );
 };
